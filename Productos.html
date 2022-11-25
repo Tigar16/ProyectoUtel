@@ -2,58 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Index.html"><i class="fi fi-ts-bread"></i> Pandingas </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Productos.html"> Productos </a>
+                  </li>
+                </ul>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Proceso.html"> Proceso </a>
+                      </li>
+                    </ul>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">    
+                          <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                          </li>
+                        </ul>          
+                   
+                        </div>  
+                    </div> 
+                </div> 
+            </div>                                 
+          </nav>
+
+    </header>
     <main>
 
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="img/1.jpg" class="card-img-top" alt="Imagen1">
-                    <div class="card-body">
-                      <h5 class="Informacion">Informacion</h5>
-                      <p class="Panzerotti">Panzerotti de queso con jamon</p>
-                      <p class="Precio"></p>Precio: 2800$</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100">
-                    <img src="img/2.jpg" class="card-img-top" alt="Imagen2">
-                    <div class="card-body">
-                      <h5 class="Informacion">Informacion</h5>
-                      <p class="Panzerotti">Panzerotti de queso con paloma</p>
-                      <p class="Precio"></p>Precio: 2200$</p>
-                    </div>
-                    <div class="card h-100">
-                        <img src="img/3.jpg" class="card-img-top" alt="Imagen3">
-                        <div class="card-body">
-                          <h5 class="Informacion">Informacion</h5>
-                          <p class="Panzerotti">Panzerotti de queso con tocino</p>
-                          <p class="Precio"></p>Precio: 3200$</p>
-                        </div>
-                        <div class="card h-100">
-                            <img src="img/4.jpg" class="card-img-top" alt="Imagen4">
-                            <div class="card-body">
-                              <h5 class="Informacion">Informacion</h5>
-                              <p class="Panzerotti">Panzerotti de queso con piña</p>
-                              <p class="Precio"></p>Precio: 2000$</p>
-                            </div>
-                  </div>
-                </div>
-                  </div>
-                </div>
-                  </div>
-                </div>
-              </div>
+      <h1 class="title">Mis Productos</h1>
+
+      <div class="container">
+       
+        <div class="card">
+            <img src="assets/img/1.jpg">
+            <h5 class="Informacion">Informacion</h5>
+            <p class="Panzerotti">Panzerotti de queso con jamon</p>
+            <p class="Precio"></p>Precio: 2800$</p>
+           
+        </div>
+        
+        <div class="card">
+            <img src="assets/img/2.jpg">
+            <h5 class="Informacion">Informacion</h5>
+            <p class="Panzerotti">Panzerotti de queso con paloma</p>
+            <p class="Precio"></p>Precio: 3200$</p>
+            
+        </div>
+        
+        <div class="card">
+            <img src="assets/img/3.jpg">
+            <h5 class="Informacion">Informacion</h5>
+            <p class="Panzerotti">Panzerotti de queso con tocino</p>
+            <p class="Precio"></p>Precio: 3200$</p>
+            
         </div>
 
+        <div class="card">
+          <img src="assets/img/4.jpg">
+          <h5 class="Informacion">Informacion</h5>
+          <p class="Panzerotti">Panzerotti de queso con piña</p>
+          <p class="Precio"></p>Precio: 3000$</p>          
+      </div>
+        
+    </div>              
     </main>
-<hr>
+    
 <footer class="bg-dark text-white mt-4">
     <div  class="container">
 
