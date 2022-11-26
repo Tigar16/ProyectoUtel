@@ -16,7 +16,7 @@ body{
     text-align: center;
     font-size: 60px;
     color:black;
-    margin-top: 40px;
+    
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
 }
@@ -30,6 +30,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+  
 }
 
 .container .card{
@@ -69,3 +70,22 @@ body{
     text-decoration: none;
     color: #3498db;
 }
+
+.carta {
+    position: relative;
+    left: 100px;
+  }  
+
+  .carta1 {
+    position: relative;
+    left: 600px;
+  }  
+  h5 {
+    font-size: large;
+    font-size: 140%;
+  }
+  p {
+    font-family: "Constantia", serif;
+    font-size:large;
+  }
+  
